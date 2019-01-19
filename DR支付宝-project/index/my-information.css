@@ -1,0 +1,41 @@
+#my-information{
+    height: 200px;
+    background-color: #104E8B;
+    flex: 1;
+    display: flex;
+}
+#my-photo{
+    width: 200px;
+    margin: 10px;
+    background-image: url(../practice.img/头像1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    box-shadow: 0 0 8px #48D1CC;
+}
+#my-name{
+    width: 500px;
+}
+#my-nickname{
+   height: 50px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-top: 40px;
+}
+#my-phone-num{
+    height: 50px;
+    width: 220px;
+    background-color:#5CACEE ;
+    border-radius: 25px;
+    font-size: 30px;
+    color: #6E6E6E;
+    font-weight: bold;
+}
+#my-point{
+    width: 80px;
+    background-image: url(../practice.img/右箭头.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}

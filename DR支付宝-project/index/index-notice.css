@@ -1,0 +1,41 @@
+#notice{
+    height: 160px;
+    background-color: white;
+    display: flex;
+}
+#notice-left{
+    width: 120px;
+    height: 150px;
+    margin-left: 15px;
+    background-color: #E0EEEE;
+    border-radius: 50%;
+    background-image: url(../practice.img/品牌标识-蚂蚁.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#notice-center{
+    width: 800px;
+    font-size: 36px;
+    color: #303030;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+#notice-center-up{
+    height: 60px;
+    margin-top: 15px;
+}
+#notice-center-down{
+    height: 60px;
+}
+#notice-right{
+    width: 60px;
+    height: 60px;
+    margin-top: 50px;
+    background-image: url(../practice.img/右箭头.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}

@@ -1,0 +1,137 @@
+#wealth-ad{
+
+    height: 920px;
+    flex: 1;
+    background-color: white;
+    border-top:8px #A6A6A6 solid;
+
+}
+#wealth-ad-title{
+    height: 100px;
+    display: flex;
+}
+#wealth-title-left{
+    width: 80%;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #0A0A0A;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+#wealth-title-right{
+    width: 20%;
+    font-weight: bold;
+    font-size: 30px;
+    color: #4b5257;
+}
+#wealth-ad1{
+    height: 200px;
+   display: flex;
+    border-bottom:4px #B4CDCD solid;
+
+}
+#wealth-ad1-img{
+width: 200px;
+    background-image: url(../practice.img/图1.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.wealth-ad-contect{
+width: 700px;
+    margin-left: 30px;
+}
+.wealth-ad-contect-up{
+height: 60%;
+    font-size: 40px;
+    font-weight: bold;
+    opacity: .7;
+}
+.wealth-ad-contect-down{
+font-weight: bold;
+    font-size: 35px;
+    opacity: .4;
+}
+#wealth-ad2{
+    height: 200px;
+    display: flex;
+    border-bottom:4px #B4CDCD solid;
+}
+#wealth-ad2-img{
+    width: 200px;
+    background-image: url(../practice.img/欠债.jpg);
+    background-size:80%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.wealth-ad-contect{
+    width: 700px;
+    margin-left: 30px;
+
+}
+.wealth-ad-contect-up{
+    height: 60%;
+    font-size: 40px;
+    font-weight: bold;
+    opacity: .7;
+}
+.wealth-ad-contect-down{
+    font-weight: bold;
+    font-size: 35px;
+    opacity: .4;
+}
+#wealth-ad3{
+    height: 200px;
+    display: flex;
+    border-bottom:4px #B4CDCD solid;
+}
+#wealth-ad3-img{
+    width: 200px;
+    background-image: url(../practice.img/还.jpg);
+    background-size:80%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.wealth-ad-contect{
+    width: 700px;
+    margin-left: 30px;
+}
+.wealth-ad-contect-up{
+    height: 60%;
+    font-size: 40px;
+    font-weight: bold;
+    opacity: .7;
+}
+.wealth-ad-contect-down{
+    font-weight: bold;
+    font-size: 35px;
+    opacity: .4;
+}
+#wealth-ad4{
+    height: 200px;
+    display: flex;
+    border-bottom:4px #B4CDCD solid;
+}
+#wealth-ad4-img{
+    width: 200px;
+    background-image: url(../practice.img/资产.jpg);
+    background-size:90%;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.wealth-ad-contect{
+    width: 700px;
+    margin-left: 30px;
+}
+.wealth-ad-contect-up{
+    height: 60%;
+    font-size: 40px;
+    font-weight: bold;
+    opacity: .7;
+}
+.wealth-ad-contect-down{
+    font-weight: bold;
+    font-size: 35px;
+    opacity: .4;
+}

@@ -1,0 +1,39 @@
+#wealth-money{
+    height: 200px;
+    flex: 1;
+    background-color: #104E8B;
+    display: flex;
+}
+#wealth-assets{
+    width: 50%;
+}
+#wealth-assets-word{
+    height: 60px;
+    font-size: 36px;
+    color: #969696;
+    margin-left: 20px;
+}
+#wealth-assets-num{
+    height: 100px;
+    font-size: 80px;
+    color: white;
+    justify-content: flex-start;
+    margin-left: 20px;
+
+}
+#wealth-income{
+    width: 50%;
+}
+#wealth-income-word{
+    height: 60px;
+    font-size: 36px;
+    color: #969696;
+    margin-left: 20px;
+}
+#wealth-income-num{
+    height: 100px;
+    font-size: 80px;
+    color: white;
+    justify-content: flex-start;
+    margin-left: 20px;
+}

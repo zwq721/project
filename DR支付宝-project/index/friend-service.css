@@ -1,0 +1,49 @@
+#friend-service{
+    height: 240px;
+    display: flex;
+
+    background-color: white;
+    margin: 10px;
+}
+.friend-service-1{
+width: 30%;
+
+}
+#friend-service-img1{
+    height: 140px;
+    background-image: url(../../../image/生活缴费.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+
+}
+#friend-service-img2{
+    height: 140px;
+    background-image: url(../../../image/小程序.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+
+}
+#friend-service-img3{
+    height: 140px;
+    background-image: url(../../../image/支付宝生活圈.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 55%;
+
+}
+.friend-service-name{
+    height: 60px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.friend-service-note{
+    height: 40px;
+    font-size: 28px;
+    color: #666666;
+    word-break: keep-all;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

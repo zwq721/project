@@ -1,0 +1,36 @@
+#friend-head{
+    height: 120px;
+    background-color: #104E8B;
+    display: flex;
+
+}
+#friend-friend{
+    width: 60%;
+    margin-left: 20px;
+    font-size: 50px;
+    color: white;
+    justify-content: flex-start;
+    flex: 1;
+}
+#friend-glass{
+    width: 120px;
+    background-image: url(../../../image/放大镜白.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+
+}
+#friend-address{
+    width: 120px;
+    background-image: url(../../../image/通讯录.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+#friend-add{
+    width: 120px;
+    background-image: url(../../../image/加号.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+}

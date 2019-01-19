@@ -1,0 +1,94 @@
+#food-custom{
+    height: 900px;
+    flex: 1;
+    background-color: white;
+    margin: 10px;
+}
+#food-custom-title{
+    height: 80px;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+.food-store{
+    height: 200px;
+    display: flex;
+    border-bottom: 10px #EDEDED solid;
+}
+#food-store-img1{
+width: 200px;
+background-image: url(../practice.img/火锅.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+.food-custom-center{
+width: 600px;
+    margin-left: 20px;
+}
+.food-custom-name{
+height:60px ;
+    font-size: 40px;
+
+}
+.food-custom-price{
+height: 60px;
+font-size: 40px;
+    font-weight: bolder;
+    color: #E64A19;
+}
+.food-sell{
+height: 60px;
+    font-size: 30px;
+    color: #E64A19;
+    font-weight: bold;
+}
+.food-distance{
+    margin-top: 60px;
+    height: 60px;
+    width: 100px;
+    font-size: 30px;
+    color: #666666;
+}
+#food-store-img2{
+    width: 200px;
+    background-image: url(../practice.img/肯德基.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+#food-store-img3{
+    width: 200px;
+    background-image: url(../practice.img/彤德莱.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+#food-store-img4{
+    width: 200px;
+    background-image: url(../practice.img/大黄蜂.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+#food-store-img5{
+    width: 200px;
+    background-image: url(../practice.img/老船吧.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+#food-store-img6{
+    width: 200px;
+    background-image: url(../practice.img/桂发祥.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}

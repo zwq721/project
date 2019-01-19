@@ -1,0 +1,81 @@
+#tools{
+    height: 250px;
+    width: 1000px;
+    background-color: #104E8B;
+   display: flex;
+    flex-flow: column;
+}
+#tools-sign{
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#tools-sign-1{
+    height: 100px;
+    width: 180px;
+    background-image: url(../practice.img/扫一扫.svg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+
+}
+#tools-sign-2{
+    height: 100px;
+    width: 100px;
+    background-image: url(../practice.img/条形码.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+#tools-sign-3{
+    height: 100px;
+    width: 100px;
+    background-image: url(../practice.img/确认收款.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
+#tools-sign-4{
+    height: 100px;
+    width: 100px;
+    background-image: url(../practice.img/卡包.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    margin-right:35px;
+}
+#tools-name{
+    width: auto;
+    height: 40px;
+    margin-left: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+#tools-name-1{
+    height: 40px;
+    width: 180px;
+    font-family: 黑体;
+    font-size: 50px;
+    color: white;
+
+}
+#tools-name-2{
+    font-family: 黑体;
+    font-size: 50px;
+    color: white;
+    margin-left: -10px;
+}
+#tools-name-3{
+    font-family: 黑体;
+    font-size: 50px;
+    color: white;
+}
+#tools-name-4{
+    font-family: 黑体;
+    font-size: 50px;
+    color: white;
+    margin-right: 35px;
+}

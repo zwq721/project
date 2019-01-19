@@ -1,0 +1,128 @@
+#wealth-financial{
+   height: 570px;
+    width: 930px;
+    flex: 1;
+    background-color: white;
+    margin-left: 20px;
+}
+#wealth-financial-title{
+    height: 100px;
+    display: flex;
+}
+#wealth-financial-title-word{
+    width: 80%;
+    font-size: 33px;
+    font-weight: bolder;
+    color: #212121;
+
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+#wealth-more{
+    width: 20%;
+    font-weight: bold;
+    font-size: 30px;
+    color: #4b5257;
+}
+#wealth-financial-content{
+    height: 450px;
+
+}
+#wealth-content-up{
+    height: 200px;
+    background-image:linear-gradient(to left,#C0FF3E,#ADD8E6) ;
+    opacity: .6;
+    display: flex;
+}
+#wealth-up-img{
+    height: 200px;
+    width: 200px;
+    background-image: url(../practice.img/98-房子.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+#wealth-shadow{
+    box-shadow:0 0 5px #3B3B3B ;
+}
+#wealth-up-text{
+width: 550px;
+}
+#wealth-text-1{
+    height: 50px;
+    font-size: 40px;
+    color: #212121;
+    font-weight: bolder;
+    justify-content: flex-start;
+    margin-top: 40px;
+    margin-left: 20px;
+
+}
+#wealth-text-2{
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #4b5257;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+#wealth-up-try{
+height: 50px;
+    width: 150px;
+    background-color: #9AC0CD;
+    font-size: 30px;
+    font-weight: bold;
+    color: #104E8B;
+    margin: 60px;
+
+}
+#wealth-content-down{
+    height: 270px;
+
+    display: flex;
+}
+#wealth-down-content1{
+width: 33%;
+}
+
+#wealth-down-img1{
+    height: 150px;
+    background-image: url(../practice.img/工资.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+}
+.wealth-down-name{
+    height:50px ;
+    font-weight: bolder;
+    color: #212121;
+    font-size: 35px;
+}
+.wealth-down-word{
+    height:50px ;
+    font-weight: bold;
+    color: #4b5257;
+    font-size: 30px;
+}
+#wealth-down-content2{
+    width: 33%;
+}
+#wealth-down-img2{
+    height: 150px;
+
+    background-image: url(../practice.img/彩色-灯泡.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+}
+#wealth-down-content3{
+    width: 33%;
+}
+#wealth-down-img3{
+    height: 150px;
+    height: 150px;
+    background-image: url(../practice.img/购买-在线理财.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35%;
+}

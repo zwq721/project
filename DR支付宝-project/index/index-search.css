@@ -1,0 +1,175 @@
+#search{
+    height: 100px;
+    background-color: #104E8B;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+#searchbox{
+    height: 80px;
+    width: 300px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#address-book{
+    height: 100px;
+    width: 100px;
+    background-image: url(../practice.img/通讯录.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+#add{
+    height: 100px;
+    width: 100px;
+    background-image: url(../practice.img/加号.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    position: relative;
+}
+#add-menu{
+    height: 530px;
+    width: 380px;
+    background-color:#F5FFFA;
+    position: absolute;
+    right: 0;
+    top: 100px;
+    border-radius: 4px;
+    display: none;
+}
+#add-menu-sanjiao{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    margin-left: 330px;
+    margin-top: -15px;
+    transform: rotate(45deg);
+}
+#add-menu-content1{
+height: 120px;
+    display: flex;
+    border-bottom:1px #666666 solid;
+}
+#add-menu-content1-1{
+    height: 120px;
+    width: 90px;
+    background-image: url(../practice.img/扫一扫1.svg);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    ;
+}
+#add-menu-content1-2{
+    height: 120px;
+    width: 250px;
+    font-size: 40px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#add-menu-content2{
+    height: 120px;
+    display: flex;
+    border-bottom:1px #666666 solid;
+}
+#add-menu-content2-1{
+    height: 120px;
+    width: 90px;
+    background-image: url(../practice.img/62收款.svg);
+    background-position: center;
+    background-size:90%;
+    background-repeat: no-repeat;
+}
+#add-menu-content2-2{
+    height: 120px;
+    width: 250px;
+    font-size: 40px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#add-menu-content3{
+    height: 120px;
+    display: flex;
+    border-bottom:1px #666666 solid;
+}
+#add-menu-content3-1{
+    height: 120px;
+    width: 90px;
+    background-image: url(../practice.img/二维码.svg);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+#add-menu-content3-2{
+    height: 120px;
+    width: 250px;
+    font-size: 40px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#add-menu-content4{
+    height: 120px;
+    display: flex;
+}
+#add-menu-content4-1{
+    height: 120px;
+    width: 90px;
+    background-image: url(../practice.img/帮助.svg);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+#add-menu-content4-2{
+    height: 120px;
+    width: 250px;
+    font-size: 40px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#glass{
+    height: 40px;
+    width: 40px;
+    background-image: url(../practice.img/放大镜.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#search-test{
+    height: 35px;
+    width: 700px;
+    color: gray;
+    margin-left: 5px;
+    font-size: 30px;
+    word-break: keep-all;
+    white-space: normal;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    flex: 1;
+
+}
+#microphone {
+    height: 40px;
+    width: 40px;
+    background-image: url(../practice.img/话筒.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

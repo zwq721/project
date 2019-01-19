@@ -1,0 +1,99 @@
+#preferential{
+    height: 240px;
+    width: 960px;
+    background-color: white;
+    flex: 1;
+}
+#preferential-name{
+    height: 90px;
+    display: flex;
+    align-items: center;
+   margin-left: 20px;
+    font-weight: bold;
+    font-size: 35px;
+}
+#preferential-content{
+display: flex;
+    height: 150px;
+    margin-left: 10px;
+    box-shadow: 0 0 6px black;
+}
+#content-left{
+    width: 50%;
+    display: flex;
+}
+#text1{
+    width: 350px;
+}
+#text1-up{
+    height: 75px;
+    word-break: keep-all;
+    white-space: normal;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    font-size: 40px;
+    font-family: 微软雅黑;
+    font-weight: bold;
+   margin-left: 10px;
+    align-items: center;
+}
+#text1-down{
+    height: 40px;
+    font-size: 28px;
+    color:#595959;
+    margin-left: 10px;
+}
+#image1{
+    height: 120px;
+    width: 100px;
+    background-image: url(../practice.img/90-皇冠.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#content-right {
+    width: 50%;
+    display: flex;
+}
+#text2{
+    width: 350px;
+}
+#text2-up{
+    height: 75px;
+    width: 300px;
+    margin-left: 10px;
+    word-break: keep-all;
+    white-space: normal;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    font-size: 40px;
+    font-family: 微软雅黑;
+    font-weight: bold;
+    align-items: center;
+
+}
+#text2-down{
+    height: 40px;
+    font-size: 28px;
+    color:#595959;
+    margin-left: 10px;
+}
+#image2{
+    margin-top: 15px;
+    height: 120px;
+    width: 120px;
+    background-color: #9AC0CD;
+    border-radius: 50%;
+    position: relative;
+}
+#hongbao{
+    height:150px;
+    width: 100px;
+    background-image: url(../practice.img/红包.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 3px;
+    bottom: -5px;
+}

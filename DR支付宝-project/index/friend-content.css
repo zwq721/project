@@ -1,0 +1,109 @@
+#friend-content{
+    flex: 1;
+    background-color: white;
+    height:80%;
+    margin-top: 20px;
+
+}
+.friend-content-species{
+    height: 180px;
+    margin: 10px;
+    display: flex;
+    flex: 1;
+    border-bottom: 10px #EDEDED solid;
+}
+#friend-content-img1{
+    height: 180px;
+    width: 180px;
+    margin: 10px;
+    background-image:url(../practice.img/心电.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:80%;}
+#friend-content-img2{
+    width: 180px;
+    margin: 10px;
+    background-image:url(../practice.img/提醒.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:80%;}
+#friend-content-img3{
+    width: 180px;
+    margin: 10px;
+    background-image:url(../practice.img/飞猪_复制.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:80%;}
+#friend-content-img4{
+    width: 180px;
+    margin: 10px;
+    background-image:url(../practice.img/优酷.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:80%;}
+#friend-content-img5{
+    width: 180px;
+    margin: 10px;
+    background-image:url(../practice.img/手机缴费.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:80%;}
+#friend-content-img6{
+    width: 180px;
+    margin: 10px;
+    background-image:url(../practice.img/森林.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:80%;}
+#friend-content-img7{
+    width: 180px;
+    margin: 10px;
+    background-image:url(../practice.img/发现.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:80%;}
+#friend-content-img8{
+    width: 180px;
+    margin: 10px;
+    background-image:url(../practice.img/地图.svg);    background-position: center;
+    background-repeat: no-repeat;
+    background-size:80%;
+}
+#friend-content-img9{
+    width: 180px;
+    margin: 10px;
+    background-image:url(../practice.img/客服.svg);    background-position: center;
+    background-repeat: no-repeat;
+    background-size:80%;
+}
+#friend-content-img10{
+    width: 180px;
+    margin: 10px;
+    background-image:url(../practice.img/蚂蚁花呗.svg);    background-position: center;
+    background-repeat: no-repeat;
+    background-size:80%;
+}
+.friend-content-center{
+   width: 70%;
+    margin-top: 20px;
+
+}
+.friend-content-up{
+    height: 60px;
+    justify-content: flex-start;
+    font-size: 35px;
+    font-weight: bold;
+}
+.friend-content-down{
+    height: 60px;
+    justify-content: flex-start;
+    font-size: 30px;
+    font-weight: bold;
+    color: #878787;
+}
+.friend-time{
+    width: 100px;
+    font-size: 30px;
+    color: #878787;
+
+}

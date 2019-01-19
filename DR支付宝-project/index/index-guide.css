@@ -1,0 +1,75 @@
+#guide{
+    height: 150px;
+    background-color: white;
+    display: flex;
+    font-size: 35px;
+    color: #515151;
+    font-weight: bolder;
+}
+#guide-sign1{
+  width: 20%;
+
+ }
+#guide-sign1-1{
+    height: 80px;
+    background-image: url(../practice.img/支付宝.svg);
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: center;
+}
+#guide-sign1-2{
+    height: 70px;
+}
+#guide-sign2{
+    width: 20%;
+}
+#guide-sign2-1{
+    height: 80px;
+    background-image: url(../practice.img/财富1.svg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+}
+#guide-sign2-2{
+    height: 70px;
+}
+#guide-sign3{
+    width: 20%;
+}
+#guide-sign3-1{
+    height: 80px;
+    background-image: url(../practice.img/口碑.svg);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: center;
+}
+#guide-sign3-2{
+    height: 70px;
+}
+#guide-sign4{
+    width: 20%;
+}
+#guide-sign4-1{
+    height: 80px;
+    background-image: url(../practice.img/朋友.svg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+}
+#guide-sign4-2{
+    height: 70px;
+}
+#guide-sign5{
+    width: 20%;
+}
+#guide-sign5-1{
+    height: 80px;
+    background-image: url(../practice.img/我的.svg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+}
+#guide-sign5-2{
+    height: 70px;
+
+}

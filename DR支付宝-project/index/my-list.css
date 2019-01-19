@@ -1,0 +1,125 @@
+#my-list{
+
+    background-color: white;
+    flex: 1;
+}
+.my-list1 {
+    height: 120px;
+    display: flex;
+}
+#my-img1{
+width: 120px;
+    margin: 10px;
+    background-image: url(../practice.img/会员.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+.my-list-name1{
+    flex: 1;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+.my-list-name2{
+    width: 300px;
+    font-size: 35px;
+    font-weight: bold;
+    justify-content: flex-start;
+    margin-left: 10px;
+    opacity: .5;
+}
+
+.my-right{
+    width: 80px;
+    background-image: url(../practice.img/右箭头灰.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+#my-img2{
+    width: 120px;
+    margin: 10px;
+    background-image: url(../practice.img/商家.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+#my-img3{
+    width: 120px;
+    margin: 10px;
+    background-image: url(../practice.img/账单.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+#my-img4{
+     width: 120px;
+     margin: 10px;
+     background-image: url(../practice.img/资产.svg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: 80%;
+ }
+#my-img5{
+      width: 120px;
+      margin: 10px;
+      background-image: url(../practice.img/余额.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 80%;
+  }
+#my-img6{
+       width: 120px;
+       margin: 10px;
+       background-image: url(../practice.img/余额宝.svg);
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: 80%;
+   }
+#my-img7{
+        width: 120px;
+        margin: 10px;
+        background-image: url(../practice.img/余利宝.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80%;
+    }
+#my-img8{
+         width: 120px;
+         margin: 10px;
+         background-image: url(../practice.img/银行卡.svg);
+         background-repeat: no-repeat;
+         background-position: center;
+         background-size: 80%;
+     }
+#my-img9{
+    width: 120px;
+    margin: 10px;
+    background-image: url(../practice.img/芝麻信用.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+#my-img10{
+    width: 120px;
+    margin: 10px;
+    background-image: url(../practice.img/保险.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+#my-img11{
+    width: 120px;
+    margin: 10px;
+    background-image: url(../practice.img/银行.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+
+
+
+
+

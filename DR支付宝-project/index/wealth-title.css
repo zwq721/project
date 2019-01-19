@@ -1,0 +1,24 @@
+#wealth-title{
+height: 100px;
+    background-color:#104E8B;
+    display: flex;
+
+}
+#wealth-title-word{
+    width: 75%;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+#wealth-glass{
+    height: 100px;
+    width: 25%;
+    background-image: url(../../../image/放大镜白.svg);
+    background-size: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}

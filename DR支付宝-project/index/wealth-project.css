@@ -1,0 +1,86 @@
+#wealth-project{
+    height: 200px;
+    flex: 1;
+    background-color:whitesmoke;
+    display: flex;
+}
+#wealth-project1{
+    width:20%;
+}
+#wealth-project1-img{
+height: 60%;
+    background-image: url(../practice.img/锁.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+#wealth-project1-name{
+height: 40%;
+    font-weight: bold;
+    font-size: 35px;
+    color: #212121;
+}
+#wealth-project2{
+    width:20%;
+}
+#wealth-project2-img{
+    height: 60%;
+    background-image: url(../practice.img/基金.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+#wealth-project2-name{
+    height: 40%;
+    font-weight: bold;
+    font-size: 35px;
+    color: #212121;
+}
+#wealth-project3{
+    width:20%;
+}
+#wealth-project3-img{
+    height: 60%;
+    background-image: url(../practice.img/员工渠道APP-养老规划.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+#wealth-project3-name{
+    height: 40%;
+    font-weight: bold;
+    font-size: 35px;
+    color: #212121;
+}
+#wealth-project4{
+    width:20%;
+}
+#wealth-project4-img{
+    height: 60%;
+    background-image: url(../practice.img/黄金.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+#wealth-project4-name{
+    height: 40%;
+    font-weight: bold;
+    font-size: 35px;
+    color: #212121;
+}
+#wealth-project5{
+    width:20%;
+}
+#wealth-project5-img{
+    height: 60%;
+    background-image: url(../practice.img/股票.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+#wealth-project5-name{
+    height: 40%;
+    font-weight: bold;
+    font-size: 35px;
+    color: #212121;
+}

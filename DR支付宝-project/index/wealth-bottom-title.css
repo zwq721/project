@@ -1,0 +1,37 @@
+#wealth-bottom-title{
+    height: 200px;
+    flex: 1;
+    background-color:white;
+
+
+}
+#wealth-bottom-title-up {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+#wealth-bottom-line-left{
+    height: 50px;
+    width: 200px;
+    margin-top: 50px;
+    border-top: 1px #666666 solid;
+}
+#wealth-bottom-word{
+    height: 100px;
+    width: 200px;
+    font-size: 35px;
+    color: #666666;
+
+}
+#wealth-bottom-line-right{
+    height: 50px;
+    width: 200px;
+    margin-top: 50px;
+    border-top: 1px #666666 solid;
+}
+#wealth-bottom-title-down{
+height: 100px;
+    font-size: 30px;
+    opacity: .5;
+}

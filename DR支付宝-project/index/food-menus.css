@@ -1,0 +1,91 @@
+#food-menus{
+    flex: 1;
+    background-color: white;
+    margin-top: 10px;
+
+}
+.food-menus-all{
+    height: 200px;
+    display: flex;
+
+}
+.food-page{
+    width: 20%;
+}
+#food-page1-img{
+    height: 130px;
+    background-image: url(../practice.img/美食.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+#food-page2-img{
+    height: 130px;
+    background-image: url(../practice.img/饿了么.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+#food-page3-img{
+    height: 130px;
+    background-image: url(../practice.img/美食1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+#food-page4-img{
+    height: 130px;
+    background-image: url(../practice.img/电影院.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+#food-page5-img{
+    height: 130px;
+    background-image: url(../practice.img/超市.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+#food-page6-img{
+    height: 130px;
+    background-image: url(../practice.img/游戏.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+#food-page7-img{
+    height: 130px;
+    background-image: url(../practice.img/麦克风，唱歌.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+#food-page8-img {
+    height: 130px;
+    background-image: url(../practice.img/美发.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+#food-page9-img{
+    height: 130px;
+    background-image: url(../practice.img/钻石.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+ }
+#food-page10-img{
+    height: 130px;
+    background-image: url(../practice.img/全部.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+
+.food-page-word{
+    font-size: 30px;
+    font-weight: bold;
+}
+

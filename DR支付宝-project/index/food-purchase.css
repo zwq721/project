@@ -1,0 +1,115 @@
+#food-purchase{
+    height: 650px;
+    flex: 1;
+    background-color: white;
+    margin: 10px;
+}
+#food-select{
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+    justify-content: flex-start;
+}
+#food-list-up{
+    height: 300px;
+    display: flex;
+
+}
+#food-up-1{
+    width: 65%;
+    background-image: url(../practice.img/牛排.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+
+}
+#food-add{
+    height: 50px;
+    width: 150px;
+    background-color:white;
+    color: #E64A19;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    border-radius: 20px;
+}
+#food-up-2{
+width: 30%;
+    margin-left: 20px;
+}
+#food-img1{
+    height:200px ;
+    border-radius: 10px;
+    background-image:url(../practice.img/水果.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#food-img2{
+    height:200px ;
+    border-radius: 10px;
+    background-image:url(../practice.img/蛋糕.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+#food-img3{
+    height:200px ;
+    border-radius: 10px;
+    background-image:url(../practice.img/吉野家.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+#food-img4{
+    height:200px ;
+    border-radius: 10px;
+    background-image:url(../practice.img/咖啡.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+.food-name{
+height: 40px;
+    font-size: 30px;
+    justify-content: flex-start;
+}
+.food-price{
+    display: flex;
+}
+.food-now-price{
+    height: 30px;
+    width: 150px;
+    font-size: 30px;
+    color: #E64A19;
+    justify-content: flex-start;
+    font-weight: bold;
+}
+.food-original-price{
+    height: 30px;
+    width: 150px;
+   font-size: 25px;
+    color: #8B8970;
+    font-weight: bold;
+    justify-content: flex-start;
+}
+#food-list-down{
+    height: 300px;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 10px;
+}
+#food-down-1{
+    width: 30%;
+}
+#food-down-2{
+    width: 30%;
+}
+#food-down-3{
+    width: 30%;
+}

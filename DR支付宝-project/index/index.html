@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>支付宝</title>
+    <link rel="stylesheet" href="container.css">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="index-list.css">
+    <link rel="stylesheet" href="index-search.css">
+    <link rel="stylesheet" href="index-tools.css">
+    <link rel="stylesheet" href="index-menus.css">
+    <link rel="stylesheet" href="index-notice.css">
+    <link rel="stylesheet" href="index-advertise.css">
+    <link rel="stylesheet" href="index-preferential.css">
+    <link rel="stylesheet" href="index-guide.css">
+    <link rel="stylesheet" href="index-goods.css">
+    <link rel="stylesheet" href="index-bottom.css">
+    <link rel="stylesheet" href="my-head.css">
+    <link rel="stylesheet" href="my-information.css">
+    <link rel="stylesheet" href="my-list.css">
+    <link rel="stylesheet" href="wealth-title.css">
+    <link rel="stylesheet" href="wealth-money.css">
+    <link rel="stylesheet" href="wealth-financial.css">
+    <link rel="stylesheet" href="wealth-ad.css">
+    <link rel="stylesheet" href="wealth-bottom-title.css">
+    <link rel="stylesheet" href="wealth-project.css">
+    <link rel="stylesheet" href="food-search.css">
+    <link rel="stylesheet" href="food-purchase.css">
+    <link rel="stylesheet" href="food-menus.css">
+    <link rel="stylesheet" href="food-custom.css">
+    <link rel="stylesheet" href="friend-head.css">
+    <link rel="stylesheet" href="friend-service.css">
+    <link rel="stylesheet" href="friend-content.css">
+</head>
+<body>
+<div class="container">
+
+<div id="list" class="">
+    <div id="list-left" class="">
+        <div id="list-left-xg" class="">4G</div>
+        <div id="list-left-signal" class="">
+            <div ></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div id="list-left-kb" class="">11 kb/s</div>
+    </div>
+    <div id="list-center" class="">20:27</div>
+    <div id="list-right" class="">
+        <div id="list-right-2"></div>
+        <div id="list-right-1">
+            <div></div>
+        </div>
+
+    </div></div>
+    <div id="rolling">
+    <div id="dynamic" class="">
+
+        </div>
+    </div>
+<div id="guide" class="">
+    <div id="guide-sign1" class="">
+        <div id="guide-sign1-1" class=""></div>
+        <div id="guide-sign1-2" class="xy" >首页</div>
+    </div>
+    <div id="guide-sign2" class="">
+        <div id="guide-sign2-1" class=""></div>
+        <div id="guide-sign2-2" class="xy" >财富</div>
+    </div>
+    <div id="guide-sign3" class="">
+        <div id="guide-sign3-1" class=""></div>
+        <div id="guide-sign3-2" class="xy " >口碑</div>
+    </div>
+    <div id="guide-sign4" class="">
+        <div id="guide-sign4-1" class=""></div>
+        <div id="guide-sign4-2" class="xy " >朋友</div>
+    </div>
+    <div id="guide-sign5" class="">
+        <div id="guide-sign5-1" class=""></div>
+        <div id="guide-sign5-2" class="xy " >我的</div>
+    </div>
+</div>
+</div>
+</body>
+</html>
+<script src="../.././DR支付宝-project/jquery.js"></script>
+<script>
+    let index=2;
+    let task;
+    function loadImg() {
+
+            if(index===4)index=1;
+            $("#advertise").css("background-image","url("+index+".jpg)");
+            index++;
+        }
+
+
+    $(function () {
+        task=setInterval("loadImg()",1000);
+
+        $("#advertise").mouseover(function () {
+            clearInterval(task);
+        });
+
+        $("#advertise").mouseout(function () {
+            task=setInterval("loadImg()",1000);
+        });
+
+
+
+
+        $("#dynamic").load("../index/content-list.html");
+        $("#guide-sign1").click(function () {
+            $("#dynamic").load("../index/content-list.html");
+        });
+        $("#guide-sign2").click(function () {
+            $("#dynamic").load("../index/wealth.html");
+        })
+        $("#guide-sign3").click(function () {
+            $("#dynamic").load("../index/food.html");
+        })
+        $("#guide-sign4").click(function () {
+            $("#dynamic").load("../index/friend.html");
+        })
+        $("#guide-sign5").click(function () {
+            $("#dynamic").load("../index/my.html");
+        })
+
+    })
+</script>
+
+

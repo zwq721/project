@@ -1,0 +1,188 @@
+#menus{
+    height: 570px;
+    background-color: white;
+    flex: 1;
+    border-bottom: 10px #A8A8A8 solid;
+}
+#menus-up{
+    height: 190px;
+
+}
+#menus-up-sign{
+    height: 130px;
+    width: 800px;
+    margin-left: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#menus-up-sign-1{
+    height: 100px;
+    width: 100px;
+    background-image: url(../practice.img/转账.svg);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+#menus-up-sign-2{
+    height: 100px;
+    width: 100px;
+    background-image: url(../practice.img/信用卡还款.svg);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+#menus-up-sign-3{
+    height: 100px;
+    width: 100px;
+    background-image: url(../practice.img/手机.svg);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+#menus-up-sign-4{
+    height: 100px;
+    width: 100px;
+    background-image: url(../../../../FY19.DR/resources/img/余额宝.svg);
+    background-position: center;
+    background-size:80%;
+    background-repeat: no-repeat;
+    margin-right: -6px;
+}
+#menus-up-name{
+    height: 50px;
+    width: 800px;
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 黑体;
+}
+#menus-up-name div{
+    width: 100px;
+    font-weight:bold;
+    font-size: 30px;
+}
+
+#menus-center{
+    height: 190px;
+}
+#menus-center-sign{
+    height: 130px;
+    width: 800px;
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#menus-center-sign-1{
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    background-image: url(../practice.img/快递.svg);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+#menus-center-sign-2{
+    height: 100px;
+    width: 100px;
+    margin-left: 4px;
+    background-image: url(../practice.img/swt-icon-滴滴出行.svg);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+#menus-center-sign-3{
+    height: 100px;
+    width: 100px;
+    background-image: url(../practice.img/校园一卡通.svg);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+ }
+#menus-center-sign-4{
+    height: 100px;
+    width: 100px;
+    background-image: url(../../../../FY19.DR/resources/img/芝麻信用.svg);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    margin-right: -6px;
+  }
+#menus-center-name{
+    height: 50px;
+    width: 800px;
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 黑体;
+}
+#menus-center-name div{
+    width: 120px;
+    font-weight:bold;
+    font-size: 30px;
+}
+
+#menus-down{
+    height: 190px;
+
+}
+#menus-down-sign{
+    height: 130px;
+    width: 800px;
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#menus-down-sign-1{
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    background-image: url(../../../../FY19.DR/resources/img/商家.svg);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+#menus-down-sign-2{
+    height: 100px;
+    width: 100px;
+    margin-left: 4px;
+    background-image: url(../practice.img/记账本.svg);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+#menus-down-sign-3{
+    height: 100px;
+    width: 100px;
+    background-image: url(../practice.img/饿了么.svg);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+#menus-down-sign-4{
+    height: 100px;
+    width: 100px;
+    background-image: url(../practice.img/更多.svg);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    margin-right: -6px;
+}
+#menus-down-name{
+    height: 50px;
+    width: 790px;
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 黑体;
+}
+#menus-down-name div{
+    width: 100px;
+    font-weight:bold;
+    font-size: 30px;
+}
